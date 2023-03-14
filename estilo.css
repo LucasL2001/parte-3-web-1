@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+}
+h1{
+    text-align: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.usuariosRiver{
+    background-color: red;
+}
+@media only screen and (max-width: 660px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
